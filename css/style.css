@@ -1,0 +1,401 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+*{
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+
+}
+header,
+section{
+	margin: 0;
+	overflow-x: hidden;
+}
+ul{
+list-style: none;
+}
+
+li{
+	padding-right: 10px;
+}
+header ul li a{
+	font-size: 16px;
+}
+
+
+
+.dropdown-menu a:hover{
+	background-color: tomato;
+}
+.rect{
+	padding: 30px 50px;
+	margin: 1rem;
+	box-shadow: 1px 3px 15px tomato;
+	z-index: 1;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.card{
+	
+	box-shadow: 1px 3px 15px tomato;
+}
+header a{
+	font-size: 0.9em;
+	color: whitesmoke;
+}
+header{
+	background: linear-gradient(to bottom,#dd2476,#ff512f);
+}
+nav{
+	padding: 4px;
+	z-index: 1;
+}
+.header-down{
+	padding: 150px 0;
+}
+
+.headerimg img{
+	box-shadow: 1px 3px 12px 4px tomato;
+}
+.section1{
+	padding: 80px 0;
+}
+.section1 .pray img{
+	width: 80%;
+	opacity: 0.8;
+    border-radius:5px;
+}
+.section1 .col-md-6 .panel{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 50px 20px 80px 50px;
+	box-shadow: 1px 3px 12px 1px lightgray;
+}
+
+.section2{
+	padding: 100px 0;
+}
+.section2 .cover{
+	background-image: url(images/img6.jpg);
+	position: relative;
+	background-position:center;
+	background-size: 150%;
+    width: 100%;
+    height: 55vmin;
+}
+.rect h1{
+	font-size: 5rem;
+	color: tomato;
+}
+.cover .content{
+	background-color: rgba(0,0,0,0.6);
+	height: 100%;
+	width: 100%;
+	padding-top: 19vmin;
+}
+
+.content>h1{
+	font-size: 6vmin;
+	color: #fff;
+}
+.content>p{
+	color: #f4f4f4;
+}
+
+.numbers{
+	margin-top: -100px;
+
+}
+.purchase>h1{
+	padding-top: 60px;
+	padding-bottom: 10px;
+	font-family: lobster;
+}
+.purchase>p{
+	padding-bottom: 40px;
+}
+.purchase .card{
+	width: 22rem;
+	margin: 3vmin;
+}
+.purchase div{
+	margin:0;
+	padding:0;
+}
+
+.card .title{
+	background-color: rgba(208,241,241,0.4);
+	padding: 1.5rem 2.5rem;
+	font-size: 2vmin;
+}
+.card .card-text{
+	padding: 2.5rem 3rem;
+}
+.card .pricing{
+	background-color: rgba(208,241,241,0.4);
+	border-top-left-radius: 170px;
+	border-top-right-radius: 170px;
+}
+.card-body .pricing>h1{
+	font-size: 10vmin;
+	padding: 1rem .5rem;
+}
+
+/*---------section3 start here---------*/
+.section3 {
+	background: linear-gradient(to bottom,#dd2476,#ff512f);
+	height: 70vmin;
+}
+.section3 .col-md-12>h1{
+	padding:1em 0 0.5em 0;
+	font-size: 6vmin;
+	color: white;
+}
+.section3 .col-md-12>p{
+	padding: 0 4em;
+	color: whitesmoke;
+	padding-bottom: 3em;
+	font-size: 3vmin;
+}
+.section3{
+	overflow-y: hidden;
+}
+.section3 .desktop{
+	background-color: white;
+	display: inline-block;
+	border-radius: 3em;
+	padding: .5em 1.2em;
+	margin: 1rem auto;
+}
+.section3 .desktop h3{
+	font-size: 4vmin;
+}
+.section3 .desktop p{
+	font-size: 2vmin;
+}
+
+/*-----section4-----*/
+.section4 .container h1{
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+
+.section4 .container p{
+	padding-bottom: 3rem;
+}
+.section4 .card{
+	width: 20rem;
+	margin-top: 10vmin;
+}
+.section4 .card-text{
+	padding: 0.5em;
+}
+.section4 .card .card-body>a{
+	font-size: 3vmin;
+	color: blue !important;
+}
+.section4 .carousel-item{
+
+}
+.border-radius{
+	border-radius: 340px;
+    width: 60%;
+}
+.section4 .carousel-item img{
+    width: 200px;
+    height: 200px;
+}
+/*-----footer-------*/
+footer{
+	margin-top: 50px;
+	padding: 80px 50px;
+	background-color: rgba(0,0,0,0.8);
+	overflow-x: hidden;
+}
+footer input{
+	border:none!important;
+}
+footer .input-group-text{
+	background: linear-gradient(to bottom,#dd2476,#ff512f);
+	border:none;
+}
+footer .column i{
+	color: #dd2476;
+	font-size: 20px;
+}
+footer .column i+i{
+	padding: 0 0.5em;
+}
+.purchase .card{
+	width: 18rem;
+	justify-content: center !important;
+	margin:10px auto;
+}
+
+.column i{
+	cursor: pointer;
+}
+ 
+.backtotop i{
+	font-size: 20px;
+	background-color: tomato;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	padding: 10px;
+	border-radius: 6px;
+	opacity: .3
+}
+.backtotop i:hover{
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px){
+	.purchase .card{
+		width: 14rem !important;
+	}
+	  .section1 .col-md-6 .panel{
+	  margin-top:0px;
+	
+   }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 992px){
+	.section1{
+    padding: 50px 0;
+   }
+   .section2{
+   	margin-top: 50px;
+   }
+   .purchase .card{
+   	width: 20rem !important;
+   }
+    .section1 .col-md-6 .panel{
+	margin-top: 0px;
+   }
+
+}
+
+
+@media only screen and (max-width: 768px){
+   
+    
+	ul{
+	margin-left: 20px;
+	}
+	li a{
+    float: none;
+	font-size: 30px;
+	}
+
+	.headerimg{
+		margin-top: 50px;
+	}
+	.section1 .col-md-6 .panel{
+	margin-top:0px;
+	
+   }
+    .purchase .row .card{
+   	width: 20rem !important;
+   }
+	.section2 .rect{
+	width: 14rem;
+	padding: 10px 20px;
+	margin: 1rem;
+	box-shadow: 1px 3px 15px tomato;
+	z-index: 1;
+	background-color: #fff;
+	border-radius: 5px;
+   }
+   .section3 .desktop{
+	background-color: white;
+	display: inline-block;
+	border-radius: 3em;
+	padding: .3rem .8rem;
+	margin: 1rem;
+   }
+   .section3 h1{
+	padding: 6vmin 4vmin;
+	margin-top: 20px;
+	}
+   .section3 .col-md-12>h1{
+	padding:.4rem 0 0.5rem 0 !important;
+	font-size: 6vmin;
+	color: white;
+    }
+    .section4 .card{
+    margin-top: 30px !important;
+    width: 18rem;
+    }
+
+    footer .row .col-md-2 .column i{
+    font-size: 1rem;
+    }
+    footer .row .col-md-2{
+    margin-top: 20px;
+	} 
+        
+}
+
+
+@media only screen and (max-width: 576px){
+	  .purchase .row .card{
+   	width: 18rem !important;
+   }
+    .section3 .col-md-12>p{
+    	padding-bottom: 1rem;
+    	margin-bottom: 0;
+
+    } 
+	.section3 .row .col-md-6{
+		padding:8px 10px !important;
+		font-size: 1rem !important;
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+	.section3 .row .col-md-6 i{
+		font-size: 1rem;
+	}
+
+	footer .row .col-md-2{
+         margin-top: 20px;
+	} 
+        
+   .cover .content {
+    background-color: rgba(0,0,0,0.6);
+    height: 100%;
+    width: 100%;
+    padding-top: 6vmin;	
+   }
+   .header-down{
+	padding: 100px 0;
+	padding-top: 70px;
+   }
+   .header-down h6{
+   	margin-top: 60px;
+   }
+}
+
+
